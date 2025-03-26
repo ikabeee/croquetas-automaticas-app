@@ -8,7 +8,11 @@ export default {
     "./node_modules/@heroui/theme/dist/components/(button|ripple|spinner).js"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"]
+      }
+    },
   },
   plugins: [heroui()],
 }
