@@ -11,9 +11,12 @@
   },
   "dependencies": {
     "@heroui/button": "^2.2.16",
+    "@heroui/card": "^2.2.15",
+    "@heroui/input": "^2.4.16",
+    "@heroui/progress": "^2.2.12",
     "@heroui/system": "^2.4.12",
     "@heroui/theme": "^2.4.12",
-    "framer-motion": "^12.5.0",
+    "framer-motion": "^12.6.2",
     "lucide-react": "^0.483.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
