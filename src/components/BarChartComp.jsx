@@ -45,7 +45,7 @@ const feedingData = [
 export default class BarChartComp extends PureComponent {
   render() {
     return (
-      <div style={{ width: "100%", height: "400px" }}>
+      <div style={{ width: "100%", height: "300px" }}>
         <ResponsiveContainer width="100%" height="100%">
           <BarChart
             data={feedingData}

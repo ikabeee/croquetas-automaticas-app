@@ -1,4 +1,3 @@
-import { Button } from "@heroui/button"
 import { Route, Routes } from "react-router-dom"
 import Dashboard from "./pages/Dashboard"
 
