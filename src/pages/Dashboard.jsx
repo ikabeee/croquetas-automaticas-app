@@ -9,7 +9,6 @@ export default function Dashboard() {
         age: '3',
         weight: '15',
         breed: 'Labrador',
-        recommendedPortion: '200'
     });
 
     const handlePetUpdate = (updatedPet) => {
@@ -23,6 +22,11 @@ export default function Dashboard() {
 
     return (
         <div className="dashboard p-4 md:p-6">
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+                <div className="col-span-1">
+                    <PetProfile pet={petData} onUpdate={handlePetUpdate} />
+                </div>
             {/* Feed Me Button */}
             <div className="mb-6">
                 <button
@@ -36,11 +40,6 @@ export default function Dashboard() {
                     ¡Aliméntame!
                 </button>
             </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
-                <div className="col-span-1">
-                    <PetProfile pet={petData} onUpdate={handlePetUpdate} />
-                </div>
                 <div className="col-span-1">
                     <FoodLevelMonitor currentLevel={60} />
                 </div>
